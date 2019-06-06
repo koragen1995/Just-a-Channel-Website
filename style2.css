@@ -1,0 +1,4015 @@
+* {
+    margin: 0;
+    padding 0;
+}
+
+
+.title{
+    display:block;
+}
+
+.open{
+    display:block;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    min-height: 100%;
+}
+
+body{
+    font-family: Minion Pro;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+header {
+    width: 100%;
+    height: 700px;
+    background-color: #4A76A8;
+}
+
+.logo{
+    display: block;
+    width: 125px;
+    height: 111px;
+    background-image: url(img/logo.png);
+    margin-left: 234px;
+    margin-top: 24px;
+    float: left;
+}
+
+.icons{
+    width: 120px;
+    height: 16px;
+    float: right;
+    margin-right: 229px;
+    margin-top: 50px;
+} 
+
+.facebook{
+    display: block;
+    width:8px;
+    height: 16px;
+    background-image: url(img/facebook-f-brands.svg);
+    float:left;
+}
+
+.youtube{
+    display: block;
+    width:17px;
+    height: 16px;
+    background-image: url(img/youtube-brands.svg);
+    float:left;
+    margin-left: 10px;
+}
+
+.twitter{
+    display: block;
+    width:16px;
+    height: 16px;
+    background-image: url(img/twitter-brands.svg);
+    float:left;
+    margin-left: 10px;
+}
+
+.instagram{
+    display: block;
+    width:14px;
+    height: 16px;
+    background-image: url(img/instagram-brands.svg);
+    float:left;
+    margin-left: 10px;
+}
+
+nav{
+    margin-left: 165px;
+    margin-top: -20px;
+    width: 230px;
+    display: block;
+    float: right;
+    background-color: #4A76A8;
+}
+
+nav li{
+    margin-left:-40px;
+    list-style-type: none;
+    height: 43px;
+}
+
+nav li:first-child {
+    height: 66px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-left: 42px;
+}
+
+nav li a{
+    display:block;
+    padding-left: 42px;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 43px;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav li a:hover{
+    background-color: #333333;
+    color: white;
+}
+
+.compRows{
+    margin-right: 40px;
+    width: 160px;
+    position: relative;
+    right: 40px;
+}
+.compRows li{
+    height: 35px;
+}
+
+.compRows li:first-child{
+    height: 35px;
+}
+
+.compRows li a{
+    line-height: 35px;
+    font-size: 12px;
+    font-weight: 800;
+}
+.hidden{
+    display: none;
+}
+.inactive{
+    background-color: #333333;
+}
+
+#inactive{
+    color: white;
+}
+
+#inactiveCompRow{
+    color: white;
+}
+
+
+main{
+    float:left;
+    clear: both;
+    width: 826px;
+    min-height: 575px;
+    background-color: #EDEEF0;
+    margin-top: -20px;
+    margin-left: 74px;
+    padding-bottom: 30px;
+}
+
+#lastPage{
+    min-height: 740px;
+}
+
+main h4{
+    margin-top: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 40px;
+    padding-bottom: 60px;
+}
+
+.product{
+    clear:left;
+    margin-left: 25px;
+    border: 10px solid white;
+    float:left;
+    margin-top: 20px;
+}
+
+.product2{
+    margin-right: 25px;
+    margin-top: -238px;
+    border: 10px solid white;
+    float:right;
+}
+
+.product3{
+    clear:left;
+    margin-left: 25px;
+    border: 10px solid white;
+    float:left;
+    margin-top: 20px;
+}
+
+.product4{
+    margin-right: 25px;
+    margin-top: -238px;
+    border: 10px solid white;
+    float:right;
+}
+
+.product5{
+    clear:left;
+    margin-left: 5px;
+    border: 7px solid white;
+    float:left;
+    margin-top: 20px;
+}
+
+.product6{
+    margin-right: 10px;
+    margin-top: -247px;
+    border: 7px solid white;
+    float:right;
+}
+
+.product7{
+    clear:left;
+    margin-left: 5px;
+    border: 7px solid white;
+    float:left;
+    margin-top: 20px;
+}
+
+.product8{
+    margin-right: 10px;
+    margin-top: -247px;
+    border: 7px solid white;
+    float:right;
+}
+
+.product img{
+    width: 100%;
+    height: auto;
+}
+
+.product2 img{
+    width: 100%;
+    height: auto;
+}
+
+.product3 img{
+    width: 100%;
+    height: auto;
+}
+
+.product4 img{
+    width: 100%;
+    height: auto;
+}
+
+.product5 img{
+    width: 100%;
+    height: auto;
+}
+
+.product6 img{
+    width: 100%;
+    height: auto;
+}
+
+.product7 img{
+    width: 100%;
+    height: auto;
+}
+
+.product8 img{
+    width: 100%;
+    height: auto;
+}
+
+.product_name{
+    margin-top: 5px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product_date{
+    margin-top: 5px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product3_name{
+    margin-top: 5px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product3_date{
+    margin-top: 5px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product5_name{
+    margin-top: 10px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.product5_date{
+    margin-top: 15px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product7_name{
+    margin-top: 10px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.product7_date{
+    margin-top: 15px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:left;
+    margin-left: 25px;
+    float:left;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product2_name{
+    margin-top: -20px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:right;
+    margin-right: 15px;
+    float:right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product2_date{
+    margin-top: 5px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:right;
+    margin-right: 15px;
+    float:right;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product4_name{
+    margin-top: -20px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:right;
+    margin-right: 15px;
+    float:right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product4_date{
+    margin-top: 5px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:right;
+    margin-right: 15px;
+    float:right;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product6_name{
+    margin-top: -20px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:right;
+    margin-right: 10px;
+    float:right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.product6_date{
+    margin-top: 15px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:right;
+    margin-right: 10px;
+    float:right;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product8_name{
+    margin-top: -20px;
+    display: block;
+    width: 352px;
+    height: 20px;
+    clear:right;
+    margin-right: 15px;
+    float:right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+}
+
+.product8_date{
+    margin-top: 15px;
+    color: darkslategrey;
+    display: block;
+    width: 352px;
+    height: 15px;
+    clear:right;
+    margin-right: 15px;
+    float:right;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.product:hover{
+    box-shadow: 0 0 10px #000000;
+}
+
+.product2:hover:not(#disabled){
+    box-shadow: 0 0 10px #000000;
+}
+
+.product3:hover:not(#disabled){
+    box-shadow: 0 0 10px #000000;
+}
+
+.product4:hover:not(#disabled2){
+    box-shadow: 0 0 10px #000000;
+}
+
+.product5:hover:not(#disabled){
+    box-shadow: 0 0 10px #000000;
+}
+
+.product6:hover:not(#disabled){
+    box-shadow: 0 0 10px #000000;
+}
+
+.product7:hover:not(#disabled){
+    box-shadow: 0 0 10px #000000;
+}
+
+.product8:hover:not(#disabled){
+    box-shadow: 0 0 10px #000000;
+}
+
+#disabled2{
+    margin-top:20px;
+}
+
+.pagination1 {
+    display: inline-block;
+    margin-top:-30px;
+    margin-left: -27px;
+}
+
+.pagination1 a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+.pagination1 a:hover:not(.disabled) {
+    background-color: #ddd;
+}
+
+.pagination2 {
+    display: inline-block;
+    margin-left:346px;
+    margin-top: 40px;
+}
+
+.pagination2 a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    font-size: 18px;
+}
+.pagination2 a:hover:not(.disabled) {
+    background-color: #ddd;
+}
+
+section{
+    min-height: 1390px;
+    background-color: #EDEEF0;
+}
+
+.clr{
+    clear: both;
+    height: 200px;
+}
+
+footer{
+    margin: -200px auto 0;
+    width: 1500px;
+    height: 200px;
+    background-color: #4A76A8;
+}
+
+#showMenuButton{
+    width: 43px;
+    height: 43px;
+    display:none;
+    position: absolute;
+    top:0px;
+    right:5px;
+    background-color: black;
+}
+
+/*less then 375*/
+@media screen and (max-width: 375px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 100px;
+    }
+    .logo{  
+        width: 62px;
+        height: 58px;
+        background-image: url(img/logo420.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -200px;
+    }
+    nav{
+        width: 70px;
+        position:absolute;
+        top:125px;
+        right:5px;
+    }
+    #showMenuButton{
+        display:block;
+    }
+    nav li{
+        display: none;
+    }
+    nav li:first-child {
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+        display: none;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    main{
+        float:right;
+        width: 100%;
+        min-height: 505px;
+        margin-top: 30px;
+    }
+    .product{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        border: 5px solid white;
+    }
+    .product2{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        margin-right: 0px;
+        float: left;
+        border: 5px solid white;
+        margin-top: 20px;
+    }
+    .product3{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        border: 5px solid white;
+    }
+    .product4{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        margin-right: 0px;
+        float: left;
+        border: 5px solid white;
+        margin-top: 20px;
+    }
+    .product5{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        border: 5px solid white;
+    }
+    .product6{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        margin-right: 0px;
+        float: left;
+        border: 5px solid white;
+        margin-top: 20px;
+    }
+    .product7{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        border: 5px solid white;
+    }
+    .product8{
+        width: 317px;
+        height: 178px;
+        margin-left: 15px;
+        margin-right: 0px;
+        float: left;
+        border: 5px solid white;
+        margin-top: 20px;
+    }
+    .product_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product2_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product2_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product3_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product3_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product4_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product4_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product5_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product5_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product6_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product6_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product7_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product7_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .product8_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 297px;
+    }
+    .product8_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 297px;
+    }
+    .pagination1 {
+        display: inline-block;
+        margin-top:-30px;
+        margin-left: 139px;
+    }
+    .pagination2 {
+        display: inline-block;
+        margin-left:139px;
+        margin-top: 40px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -5px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+/*376 to 414*/
+@media screen and (min-width: 376px) and (max-width: 414px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 100px;
+    }
+    .logo{  
+        width: 62px;
+        height: 58px;
+        background-image: url(img/logo420.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 25px;
+    }
+    .welcome{
+        width: 100%;
+        height: 180px; 
+        margin-top: 22px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .welcome h3{
+        margin-top: 32px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .welcome p{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .something{
+        display: none;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -230px;
+    }
+    nav{
+        width: 70px;
+        position:absolute;
+        top:125px;
+        right:10px;
+    }
+    #showMenuButton{
+        display: block;
+    }
+    nav li{
+        display: none;
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+        display: none;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    main{
+        float:left;
+        width: 100%;
+        min-height: 505px;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 6px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        border: 6px solid white;
+        margin-top: 20px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 6px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        border: 6px solid white;
+        margin-top: 20px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 6px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        border: 6px solid white;
+        margin-top: 20px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 6px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        border: 6px solid white;
+        margin-top: 20px;
+    }
+    .product_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product2_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product2_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product3_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product3_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product4_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product4_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product5_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product5_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product6_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product6_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product7_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product7_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product8_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product8_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .pagination1 {
+        display: inline-block;
+        margin-top:-30px;
+        margin-left: 144px;
+    }
+    .pagination2 {
+        display: inline-block;
+        margin-left:144px;
+        margin-top: 40px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: 0px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    footer{
+        width: 100%;
+    }
+}
+
+/*415 to 444*/
+@media screen and (max-width: 444px) and (min-width: 415px){
+    #showMenuButton{
+        display:block;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -265px;
+    }
+    nav{
+        position: absolute;
+        top: 175px;
+        width: 70px;
+        right: 5px;
+    }
+    nav li{
+        display: none;
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+        display: none;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:right;
+        width: 100%;
+        min-height: 505px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 25px;
+        border: 6px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        margin-left: 24px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 25px;
+        border: 6px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        margin-left: 24px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 25px;
+        border: 6px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        margin-left: 24px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 25px;
+        border: 6px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        margin-left: 24px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product_name{
+        margin-left: 45px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product_date{
+        margin-left: 45px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product2_name{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product2_date{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product3_name{
+        margin-left: 45px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product3_date{
+        margin-left: 45px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product4_name{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product4_date{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product5_name{
+        margin-left: 45px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product5_date{
+        margin-left: 45px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product6_name{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product6_date{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product7_name{
+        margin-left: 45px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product7_date{
+        margin-left: 45px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product8_name{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product8_date{
+        clear:left;
+        margin-left: 45px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .pagination1 {
+        display: inline-block;
+        margin-top:-30px;
+        margin-left: 168px;
+    }
+    .pagination2 {
+        display: inline-block;
+        margin-left:168px;
+        margin-top: 40px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: 0px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+}
+
+/*445 to 574*/
+@media screen and (max-width: 574px) and (min-width: 445px){
+    #showMenuButton{
+        display: block;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -235px;
+    }
+    nav{
+        position: absolute;
+        top: 175px;
+        width: 70px;
+        right: 10px;
+    }
+    nav li{
+        display: none;
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+        display: none;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 375px;
+        min-height: 455px;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        margin-right: 0px;
+        float: left;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product2_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product2_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product3_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product3_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product4_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product4_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product5_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product5_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product6_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product6_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product7_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product7_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product8_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product8_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .pagination1 {
+        display: inline-block;
+        margin-top:-30px;
+        margin-left: 140px;
+    }
+    .pagination2 {
+        display: inline-block;
+        margin-left:140px;
+        margin-top: 40px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        min-height: 2597px;
+    }
+}
+
+/*575 to 615*/
+@media screen and (max-width: 615px) and (min-width: 575px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    .welcome{
+        width: 100%;
+        height: 180px; 
+        margin-top: 10px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    .welcome h3{
+        margin-top: 32px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .welcome p{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+    }
+    .something{
+        display: none;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -235px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 175px;
+    }
+    nav li{
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 375px;
+        min-height: 455px;
+        margin-top: 0px;
+        margin-left: 10px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        margin-right: 0px;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        margin-right: 0px;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        margin-right: 0px;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        margin-left: 5px;
+        float: left;
+        margin-right: 0px;
+        border: 7px solid white;
+        margin-top: 20px;
+    }
+    .product_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product2_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product2_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product3_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product3_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product4_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product4_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product5_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product5_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product6_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product6_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product7_name{
+        margin-left: 25px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product7_date{
+        margin-left: 25px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .product8_name{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 10px;
+        line-height: 20px;
+        width: 332px;
+    }
+    .product8_date{
+        clear:left;
+        margin-left: 25px;
+        float:left;
+        margin-right: 0px;
+        margin-top: 15px;
+        width: 332px;
+    }
+    .pagination1 {
+        display: inline-block;
+        margin-top:-30px;
+        margin-left: 140px;
+    }
+    .pagination2 {
+        display: inline-block;
+        margin-left:140px;
+        margin-top: 40px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        min-height: 2567px;
+    }
+}
+
+/*616 to 744*/
+@media screen and (max-width: 744px) and (min-width: 616px){
+    #showMenuButton{
+        display: block;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -235px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 175px;
+        width: 70px;
+    }
+    nav li{
+        display: none;
+    }
+    nav li:first-child {
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+        display: none;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 545px;
+        min-height: 425px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 246px;
+        height: 138px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product3{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-left: 10px;
+    }
+    .product4{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product5{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-left: 10px;
+    }
+    .product6{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product7{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-left: 10px;
+    }
+    .product8{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product2_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product4_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product6_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product8_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .pagination1 {
+        display: inline-block;
+        margin-top:-30px;
+        margin-left: -41px;
+    }
+    .pagination2 {
+        display: inline-block;
+        margin-left:228px;
+        margin-top: 40px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        min-height: 1139px;
+    }
+}
+
+/*745 to 768*/
+@media screen and (max-width: 768px) and (min-width: 745px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 175px;
+    }
+    nav li{
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 545px;
+        min-height: 420px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 246px;
+        height: 138px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product3{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-left: 10px;
+    }
+    .product4{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product5{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-left: 10px;
+    }
+    .product6{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product7{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-left: 10px;
+    }
+    .product8{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -212px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product2_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product4_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product6_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product8_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .pagination1{
+        margin-left: -40px;
+    }
+    .pagination2{
+        margin-left: 229px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        min-height: 1133px;
+        padding-bottom: 6px;
+    }
+}
+
+/*769 to 854*/
+@media screen and (max-width: 854px) and (min-width: 769px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 175px;
+    }
+    nav li{
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 545px;
+        min-height: 455px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 246px;
+        height: 138px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top:-212px;
+    }
+    .product3{
+        width: 246px;
+        height: 138px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top:-212px;
+    }
+    .product5{
+        width: 246px;
+        height: 138px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top:-212px;
+    }
+    .product7{
+        width: 246px;
+        height: 138px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 246px;
+        height: 138px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top:-212px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product2_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product4_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product6_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 246px;
+        line-height: 20px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_name{
+        margin-top: -50px;
+        width: 246px;
+        line-height: 20px;
+        margin-right: 10px;
+    }
+    .product8_date{
+        margin-top: -15px;
+        width: 246px;
+        margin-right: 10px;
+    }
+    .pagination1{
+        margin-left: -40px;
+    }
+    .pagination2{
+        margin-left: 229px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        min-height: 1125px;
+        padding-bottom: 14px;
+    }
+}
+
+/*855 to 984*/
+@media screen and (max-width: 984px) and (min-width: 855px){
+    #showMenuButton{
+        display: block;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 175px;
+        width: 70px;
+    }
+    nav li{
+        display: none;
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+        display: none;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product6_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product8_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 655px;
+    }
+}
+
+/*985 to 1024*/
+@media screen and (max-width: 1024px) and (min-width: 985px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 150px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 44px;
+        margin-top: 20px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        width: 93px;
+        height: 37px;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 175px;
+        width: 200px;
+    }
+    nav li{
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product6_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product8_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 655px;
+    }
+}
+
+@media screen and (max-width: 1044px) and (min-width: 1025px){
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 180px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 64px;
+        margin-top: 40px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 5px;
+        top: 205px;
+        width:200px;
+    }
+    nav li{
+    }
+    nav li:first-child {
+        display: block;
+        height: 43px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product6_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product8_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 675px;
+    }
+}
+
+@media screen and (max-width: 1210px) and (min-width: 1045px){
+    .compRows{
+        width: 210px;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 180px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 64px;
+        margin-top: 40px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 10px;
+        top: 205px;
+        width:250px;
+    }
+    nav li{
+        height: 50px;
+    }
+    nav li:first-child {
+        display: block;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+        line-height: 50px;
+        font-size: 17px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product6_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product8_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 680px;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1211px){
+    .compRows{
+        width: 210px;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 180px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 64px;
+        margin-top: 40px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 10px;
+        top: 205px;
+        width:250px;
+    }
+    nav li{
+        height: 50px;
+    }
+    nav li:first-child {
+        display: block;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+        line-height: 50px;
+        font-size: 17px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: 5px;
+        margin-left: 0px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product6_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product8_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 680px;
+    }
+}
+
+@media screen and (max-width: 1499px) and (min-width: 1281px){
+    .compRows{
+        width: 210px;
+    }
+    .container{
+        width: 100%;
+    }
+    header{
+        height: 180px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 64px;
+        margin-top: 40px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -215px;
+    }
+    nav{
+        position: absolute;
+        right: 20px;
+        top: 205px;
+        width:250px;
+    }
+    nav li{
+        height: 50px;
+    }
+    nav li:first-child {
+        display: block;
+        height: 50px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+        line-height: 50px;
+        font-size: 17px;
+    }
+    footer{
+        width: 100%;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: 5px;
+        margin-left: 15px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product5{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product6{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product7{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product8{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product5_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product6_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product7_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product8_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product5_date{
+        margin-top: 15px;
+    }
+    .product6_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product7_date{
+        margin-top: 15px;
+    }
+    .product8_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 680px;
+    }
+}
+
+
+@media screen and (min-width: 1501px){
+    .container{
+        width: 82%;
+    }
+    header{
+        height: 200px;
+    }
+    .logo{  
+        width: 125px;
+        height: 111px;
+        background-image: url(img/logo.png);
+        margin-left: 64px;
+        margin-top: 40px;
+    }
+    .icons{
+        margin-right: 15px;
+        margin-top: 30px;
+    }
+    .welcome{
+        width: 100%;
+        height: 180px; 
+        margin-top: 69px;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+    }
+    .welcome h3{
+        margin-top: 32px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 24px;
+    }
+    .welcome p{
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 17px;
+        text-align: center;
+    }
+    .something{
+        display: none;
+    }
+    header form button{
+        clear: none;
+        float: right;
+        display: block;
+        font-size:16px;
+        font-weight: 700;
+        margin-right: 47px;
+        margin-top: -255px;
+    }
+    nav{
+        margin-top: 0;
+        float: right;
+        width:250px;
+        margin-right: 30px;
+    }
+    nav li{
+        height: 66px;
+    }
+    nav li:first-child {
+        display: block;
+        height: 66px;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 70px;
+        text-align: center;
+        padding-left: 0px;
+    }
+    nav li a{
+        text-align: center;
+        padding-left: 0px;
+        line-height: 66px;
+        font-size: 17px;
+    }
+    main{
+        float:left;
+        width: 785px;
+        min-height: 455px;
+        margin-top: -505px;
+        margin-left: 30px;
+    }
+    .product{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product2{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product3{
+        width: 352px;
+        height: 198px;
+        margin-left: 10px;
+        border: 7px solid white;
+    }
+    .product4{
+        width: 352px;
+        height: 198px;
+        border: 7px solid white;
+        margin-right: 10px;
+        margin-top: -242px;
+    }
+    .product_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product2_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product3_name{
+        margin-top: 10px;
+        width: 332px;
+        line-height: 20px;
+    }
+    .product4_name{
+        width: 332px;
+        margin-right: 30px;
+        line-height: 20px;
+    }
+    .product_date{
+        margin-top: 15px;
+    }
+    .product2_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    .product3_date{
+        margin-top: 15px;
+    }
+    .product4_date{
+        margin-top: 15px;
+        margin-right: 10px;
+    }
+    main h4{
+        margin-top: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: -10px;
+        margin-left: -15px;
+    }
+    .formore{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+    section{
+        height: 710px;
+    }
+    footer{
+        width: 82%;
+    }
+}
